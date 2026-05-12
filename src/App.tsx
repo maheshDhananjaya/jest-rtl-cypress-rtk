@@ -4,6 +4,7 @@ import LoginForm from "./components/login/LoginForm";
 import PostList from "./components/post/PostList";
 import CommentList from "./components/comments/CommentList";
 import Xss from "./components/xss/Xss";
+import UserList from "./components/userList/UserList";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/post" element={<PostList />} />
       <Route path="/comments/" element={<CommentList />} />
       <Route path="/xss" element={<Xss />} />
+      <Route path="/users" element={<UserList />} />
     </Routes>
   );
 }
